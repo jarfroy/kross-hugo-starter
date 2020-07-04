@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: content/portfolio
   label: Portfolio
-  create: none
+  create: documents
   match: "*"
   templates:
   - post
@@ -21,7 +21,7 @@ sections:
 - type: directory
   path: content/about
   label: About
-  create: none
+  create: all
   match: "*"
 - type: directory
   path: data
